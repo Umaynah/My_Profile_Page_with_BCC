@@ -1,0 +1,193 @@
+body{
+	font-family: Arial, Helvetica, san-serif;
+	padding: 0;
+	margin: 0;
+	background-color: lightgrey;
+}
+.container{
+	width:100%;
+	margin:auto;
+	overflow: hidden;
+}
+header{
+	background-color: black;
+	color: white;
+	padding-top: 20px;
+	min-height: 50px;
+	border-bottom: yellow solid 1px;
+}
+.highlight{
+	color: yellow;
+}
+header a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+}
+header #brand{
+	float:left;
+}
+header #brand h1{
+	margin: 0;
+	padding-left:20px;
+}
+header nav{
+	float: right;
+	margin-bottom: : 20px;
+}
+#showcase{
+	min-height: 400px;
+	background: url('../img/showcase.png') no-repeat 0 -300px ;
+	text-align: center;
+	color: #ffffff;
+	border-bottom: yellow solid 1px;
+}
+#showcase h1{
+	font-size: 40px;
+	margin-top:150px;
+	margin-left: 50px;
+	font-style: italic;
+}
+#newsletter{
+	padding: 8px;
+	background: black;
+	color: white;
+}
+#newsletter h1{
+	float: left;
+	font-size: 20px;
+}
+#newsletter form{
+	float: right;
+	margin-top: 20px;
+}
+#newsletter input[type="email"]{
+	padding: 5px;
+	height:15px;
+	width:250px;
+}
+.button_1{
+	height:28px;
+	background: yellow;
+	border:none;
+	padding-left:20px;
+	padding-right:20px;
+	color:black;
+}
+
+article{
+	padding: 20px;
+	margin: auto;
+}
+.post{
+	width: 50%
+}
+article h1{
+	text-decoration: underline;
+}
+article p{
+	margin-top: 30px;
+	margin-right:70px;
+}
+
+
+/* Connect with Me*/
+#side-bar {
+	margin-top: 30px;
+	padding-left:20px;
+	float:right;
+	background-color: grey;	
+	width: 30%;
+	height: 350px;
+}
+#side-bar h2{
+	text-align: center;
+	text-decoration: underline;
+}
+.name{
+	padding-top: 10px;
+}
+.name input{
+	width: 80%;
+}
+.email{
+	padding-top: 20px;
+}
+.email input{
+	width: 80%;
+}
+.message{
+	padding-top:20px;
+}
+.message input{
+	width: 80%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+footer{
+	background:black;
+	color:white;
+	margin-top: 50px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+
+
+
+/* About Page*/
+#about{
+	padding: 20px;
+}
+#about_header{
+	text-align: center;
+}
+.image{
+	width: 30%;
+	height: 50%;
+	transform: rotate(270deg);
+	padding-top:120px;
+	margin: 0;
+}
+#about h4{
+	margin-top:50px;
+}
+.logo{
+	width:50px;
+	height:50px;
+	padding-left: 20px;
+}
+
+
+
+
+
+/*Project*/
+#project{
+	color: yellow;
+	text-align: center;
+}
+.writing{
+	margin-left: 50px;
+	width: 30%;
+	height: 40%;
+	border: solid;
+	border-color: grey;
+	margin-top: 30px;
+}
